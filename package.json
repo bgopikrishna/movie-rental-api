@@ -1,0 +1,22 @@
+{
+  "name": "vidly-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.7.13",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4"
+  }
+}
